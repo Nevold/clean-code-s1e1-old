@@ -48,8 +48,10 @@
 input,
 button {
   outline: none;
-} 
-button {
+}
+.edit,
+.delete,
+.task-wrapper__btn{
   background: none;
   border: 0px;
   color: #888;
@@ -58,7 +60,8 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.edit:hover,
+.delete:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -98,7 +101,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
-li {
+.list__elem {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -107,7 +110,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-li > * {
+.list__elem > * {
   vertical-align: middle;
 }
 
