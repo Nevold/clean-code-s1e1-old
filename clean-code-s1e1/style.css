@@ -41,12 +41,14 @@
   margin: 0;
   padding: 0px;
 }
-.elem, .title {
+.elem,
+.title {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
-}
+} 
 button {
   background: none;
   border: 0px;
